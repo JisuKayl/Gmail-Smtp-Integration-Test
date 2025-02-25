@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Email Sender</h1>
+      <h1>Gmail SMTP Email Service</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="to">Recipient Email:</label>
