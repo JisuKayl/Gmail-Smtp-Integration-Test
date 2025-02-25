@@ -1,42 +1,41 @@
-📧 Gmail SMTP Integration
+# 📧 Gmail SMTP Integration
 
-This project implements email messaging using Gmail SMTP, built with React (frontend) and Express (backend). The backend uses Nodemailer to send emails, while the frontend utilizes Axios to communicate with the backend.
+This project implements email messaging using **Gmail SMTP**, built with **React** (frontend) and **Express** (backend). The backend uses **Nodemailer** to send emails, while the frontend utilizes **Axios** to communicate with the backend.
 
-🚀 Features
+---
 
-✅ Send emails using Gmail SMTP
+## 🚀 Features
+- ✅ **Send emails using Gmail SMTP**
+- ✅ **Simple UI for email input and submission**
+- ✅ **Backend API with Express.js and Nodemailer**
+- ✅ **Frontend with React and Axios for sending email requests**
 
-✅ Simple UI for email input and submission
+---
 
-✅ Backend API with Express.js and Nodemailer
+## 📡 API Endpoint
 
-✅ Frontend with React and Axios for sending email requests
+### **Send Email**
+- **URL:** `/api/send-email`
+- **Method:** `POST`
+- **Request Body:**
+  ```json
+  {
+    "to": "recipient@example.com",
+    "subject": "Test Email",
+    "text": "This is a test email from the system."
+  }
+  ```
+- **Response:**
+  ```json
+  {
+    "success": true,
+    "message": "Email sent successfully"
+  }
+  ```
 
-📡 API Endpoint
+---
 
-Send Email
-
-URL: /api/send-email
-
-Method: POST
-
-Request Body:
-
-{
-  "to": "recipient@example.com",
-  "subject": "Test Email",
-  "text": "This is a test email from the system."
-}
-
-Response:
-
-{
-  "success": true,
-  "message": "Email sent successfully"
-}
-
-📜 License
-
+## 📜 License
 This project is open-source and available for modification and improvement.
 
 ![image](https://github.com/user-attachments/assets/8a4c0dd7-2938-4154-a17a-9bd9dc6dab6b)
